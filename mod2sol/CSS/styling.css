@@ -1,0 +1,181 @@
+/* Initializing base styles... */
+
+*{
+	box-sizing: border-box;
+
+}
+
+p{
+	margin-bottom: 5px;
+	margin-top: 50px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Courier New;
+	background-color: #A3B3CD;
+	text-align: justify;
+}
+
+
+div.section{
+	float:right;
+	position: relative;
+}
+
+
+
+#Intro{
+	text-align: center;
+}
+
+.row{
+	width:100%;
+	position:relative;
+	
+}
+
+/* Titling */
+#teddy{
+	background-color: #27A115;
+	position:absolute;
+	border:1px solid black;
+	width:100px;
+	height: 40px;
+ 	top:-51px;
+ 	right:0px;
+ 	text-align: center;
+ 	right:0px;
+ 	
+
+ 	
+
+	
+}
+
+#wilson{
+	background-color: #BFC42E;
+	position:absolute;
+	width:100px;
+	height: 40px;
+	top:-51px;
+ 	right:0px;
+	border:1px solid black;
+	text-align: center;
+	
+}
+
+#gaulle{
+	background-color: #C81717;
+	position:absolute;
+	width:100px;
+	height: 40px;
+	top:-51px;
+ 	right:0px;
+	border:1px solid black;
+	text-align: center;
+}
+
+
+
+/* For large screen devices */
+@media(min-width:992px) {
+	.col-lg-3 {
+		float:left;
+		position:relative;
+		width:31%;
+		border: 1px solid black;
+		margin-left: 15px;
+		margin-top: 35px;
+		padding-bottom: 50px;
+		background-color: #A3B3CD;	
+	}
+
+	#teddy{
+	top:-51px;
+ 	right:0px;
+	}
+
+	#wilson{
+	top:-51px;
+ 	right:0px;
+	}
+
+	#gaulle{
+	top:-51px;
+ 	right:0px;
+	}
+
+
+
+}
+
+/* For medium screen devices */
+@media(min-width:768px) and (max-width: 991px){
+	.col-md, .col-md-1 {
+	float:left;
+	}
+	.col-md{
+		width:48%;
+		border: 1px solid black;
+		margin-right: 10px;
+		margin-left:5px;
+		padding-bottom: 50px;
+		background-color: #A3B3CD;
+	}
+
+	.col-md-1{
+		width:98%;
+		border: 1px solid black;
+		margin-top: 10px;
+		margin-left:5px;
+		padding-bottom: 50px;
+		background-color: #A3B3CD;
+	}
+
+	#teddy{
+	top:-51px;
+ 	left:-100px;
+	}
+
+	#wilson{
+	top:-51px;
+ 	left:-100px;
+	}
+
+	#gaulle{
+	top:-51px;
+ 	left:-100px;
+	}
+}
+
+
+/* For small screen devices */
+@media(max-width:767px){
+	.col-sm{
+	float:left;
+	}
+	.col-sm{
+		width:90%;
+		border: 1px solid black;
+		margin-top: 15px;
+		margin-left: 10px;
+		margin-right: 15px;
+		padding-bottom: 50px;
+		background-color: #A3B3CD;
+		}
+
+	#teddy{
+	top:-51px;
+ 	left:-100px;
+	}
+
+	#wilson{
+	top:-51px;
+ 	left:-100px;
+	}
+
+	#gaulle{
+	top:-51px;
+ 	left:-100px;
+	}
+}

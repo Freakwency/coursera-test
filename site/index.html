@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 	<title>Hello Coursera</title>
+<style>
+header li {
+	list-style: none;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	background-color: green;
+	border:1px solid blue;
+	color: black;
+	display: block;
+	width: 200px;
+	text-align: center;
+	margin-bottom: 1px;
+}
+
+a:hover, a:active {
+	background-color: red;
+	color: purple;
+}
+
+header li:nth-child(3) {
+	font-size: 24px;
+}
+
+section article:nth-child(odd) {
+	background-color: gray;
+}
+
+section article:nth-child(3):hover {
+	background-color: green;
+	cursor: pointer;
+}
+
+</style>
 </head>
 <body>
 <h1>It begins here</h1>
+
+<header>
+	<ul>
+	<li><a href="/">Home Page</a></li>
+	<li><a href="google.com"> Other Page</a></li>
+	<li><a href="whenihavetheinternet.com"> Still Another Page</a></li>
+	<li><a href="freakwency.com">About These Pages</a></li>
+	</ul>
+</header>
+
 <p>Something to do with modification</p>
+<p>And browser sync</p>
+
+<header>
+    header element - Some header information goes here. Usually consists of company logo, some tag line, etc. Sometimes, navigation is contained in the header as well.
+    <nav>nav (short for navigation) element - Usually contains links to different parts of the web site.</nav>
+  </header>
+  <h1>Main Heading of the Page (hard not to have it)</h1>
+  <section>
+    Section 1
+    <article>Article 1</article>
+    <article>Article 2</article>
+    <article>Article 3</article>
+  </section>
+  <section>
+    Section 2
+    <article>Article 4</article>
+    <article>Article 5</article>
+    <article>Article 6</article>
+    <div>Regular DIV element</div>
+  </section>
+  <aside>
+    ASIDE - Some information that relates to the main topic, i.e., related posts.
+  </aside>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <footer>
+    JHU Copyright 2015
+  </footer>
 </body>
 </html>
